@@ -1,5 +1,5 @@
 const ADDRESS = '614 S Brookhurst St, Anaheim, CA 92804'
-const DIRECTIONS_URL = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(ADDRESS)}`
+const DIRECTIONS_URL = 'https://maps.google.com/?cid=10356880200949722280'
 const MAP_EMBED_URL =
   'https://maps.google.com/maps?q=Ufoodie%20Hot%20Pot,%20614%20S%20Brookhurst%20St,%20Anaheim,%20CA%2092804&t=&z=15&ie=UTF8&iwloc=&output=embed'
 const DINING_OPTIONS = ['Dine-in', 'Takeout', 'Delivery']

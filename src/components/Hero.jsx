@@ -14,15 +14,18 @@ function Hero() {
         BOLD SOUP. BIG FLAVOR. YOUR WAY.
       </p>
       <div className="relative z-10 mt-10 flex flex-wrap items-center justify-center gap-4">
-        <button
-          type="button"
+        <a
+          href="https://www.doordash.com/store/u-foodie-malatang-anaheim-44225453/108600752/?pickup=true&rwg_token=AFd1xnGxuC3vCYm8QEFlZT7WZyEwKs7Nw06nQNpiObMh2NQ37phwm_YFOUA5_5GfxhYSmebBOO76jMA3hXFIpd7Y2-c5_YgOTw==&utm_campaign=gpa"
+          target="_blank"
+          rel="noopener noreferrer"
           className="rounded-full bg-orange-600 px-6 py-2 font-medium text-white transition-all duration-300 ease-out hover:scale-105 hover:bg-orange-700 active:scale-95"
         >
           Order on DoorDash
-        </button>
+        </a>
         <button
           type="button"
           className="rounded-full border border-white bg-transparent px-6 py-2 font-medium text-white transition-all duration-300 ease-out hover:scale-105 active:scale-95"
+          onClick={() => document.getElementById('menu').scrollIntoView({ behavior: 'smooth' })}
         >
           View Menu
         </button>
