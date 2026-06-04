@@ -29,12 +29,12 @@ const STEPS = [
 
 function HowItWorks() {
   return (
-    <section className="bg-[#F9F8F6]">
+    <section id="quality" className="bg-[#F9F8F6]">
       <div className="mx-auto max-w-7xl px-6 py-16 md:py-24 lg:px-12">
         <div className="grid grid-cols-1 items-center gap-12 md:grid-cols-2 md:gap-16">
           <div className="overflow-hidden rounded-xl">
             <img
-              src="/buffet2.jpg"
+              src="/ufoodieingredients.jpg"
               alt="Fresh malatang ingredients displayed at the buffet bar"
               className="aspect-square h-[500px] w-full object-cover md:aspect-auto"
             />

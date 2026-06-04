@@ -35,11 +35,11 @@ const SIGNATURE_DRY_BOWL = {
     'Mala Ban is our signature dry bowl — a customizable mix of your favorite ingredients tossed in our house-made spicy mala sauce, rich in umami.',
 }
 
-function MenuCard({ title, description, className = '' }) {
+function MenuCard({ title, description, imageSrc = MENU_IMAGE_URL, className = '' }) {
   return (
     <article className={`overflow-hidden bg-white ${className}`}>
       <img
-        src={MENU_IMAGE_URL}
+        src={imageSrc}
         alt={title}
         className="block aspect-[4/3] w-full object-cover"
       />

@@ -1,15 +1,24 @@
 function Navbar() {
   return (
     <nav className="fixed top-0 z-50 flex w-full items-center justify-between bg-[#F9F8F6]/90 px-6 py-4 backdrop-blur-sm lg:px-12">
-      <img src="/logo.png" alt="Logo" className="h-10" />
+      <span className="text-2xl font-black tracking-tighter text-orange-600">UFOODIE</span>
       <div className="hidden items-center gap-8 md:flex">
-        <span className="group relative cursor-pointer text-sm font-medium text-zinc-900 transition-all duration-300 after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-orange-600 after:transition-all after:duration-300 after:content-[''] group-hover:after:w-full">
+        <span
+          onClick={() => document.getElementById('menu')?.scrollIntoView({ behavior: 'smooth' })}
+          className="group relative cursor-pointer text-sm font-medium text-zinc-900 transition-all duration-300 after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-orange-600 after:transition-all after:duration-300 after:content-[''] group-hover:after:w-full"
+        >
           Menu
         </span>
-        <span className="group relative cursor-pointer text-sm font-medium text-zinc-900 transition-all duration-300 after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-orange-600 after:transition-all after:duration-300 after:content-[''] group-hover:after:w-full">
+        <span
+          onClick={() => document.getElementById('quality')?.scrollIntoView({ behavior: 'smooth' })}
+          className="group relative cursor-pointer text-sm font-medium text-zinc-900 transition-all duration-300 after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-orange-600 after:transition-all after:duration-300 after:content-[''] group-hover:after:w-full"
+        >
           Quality
         </span>
-        <span className="group relative cursor-pointer text-sm font-medium text-zinc-900 transition-all duration-300 after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-orange-600 after:transition-all after:duration-300 after:content-[''] group-hover:after:w-full">
+        <span
+          onClick={() => document.getElementById('location')?.scrollIntoView({ behavior: 'smooth' })}
+          className="group relative cursor-pointer text-sm font-medium text-zinc-900 transition-all duration-300 after:absolute after:-bottom-1 after:left-0 after:h-0.5 after:w-0 after:bg-orange-600 after:transition-all after:duration-300 after:content-[''] group-hover:after:w-full"
+        >
           Visit Us
         </span>
         <a

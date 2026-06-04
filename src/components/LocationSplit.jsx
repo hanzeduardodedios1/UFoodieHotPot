@@ -24,7 +24,7 @@ function CheckIcon() {
 
 function LocationSplit() {
   return (
-    <section className="mx-auto max-w-7xl px-6 py-16 md:py-24 lg:px-12">
+    <section id="location" className="mx-auto max-w-7xl px-6 py-16 md:py-24 lg:px-12">
       <div className="grid grid-cols-1 items-stretch gap-12 md:grid-cols-2 md:gap-16">
         <div className="flex flex-col justify-center">
           <p className="section-label">Location</p>
