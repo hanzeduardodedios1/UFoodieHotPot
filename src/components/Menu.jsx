@@ -1,7 +1,5 @@
 import FadeUp from './FadeUp'
 
-const MENU_IMAGE_URL = '/ufoodiehotpotitem.jpg'
-
 const CLEAR_BROTH_ITEMS = [
   {
     title: 'Chicken Broth',
@@ -35,11 +33,11 @@ const SIGNATURE_DRY_BOWL = {
     'Mala Ban is our signature dry bowl — a customizable mix of your favorite ingredients tossed in our house-made spicy mala sauce, rich in umami.',
 }
 
-function MenuCard({ title, description, imageSrc = MENU_IMAGE_URL, className = '' }) {
+function MenuCard({ title, description, className = '' }) {
   return (
     <article className={`overflow-hidden bg-white ${className}`}>
       <img
-        src={imageSrc}
+        src="/ufoodiehotpotitem.jpg"
         alt={title}
         className="block aspect-[4/3] w-full object-cover"
       />

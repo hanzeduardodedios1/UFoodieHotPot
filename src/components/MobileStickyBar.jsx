@@ -7,7 +7,7 @@ function MobileStickyBar() {
         rel="noopener noreferrer"
         className="btn-primary min-h-14 w-full"
       >
-        Delivery via DoorDash
+        Order Pickup & Delivery
       </a>
     </div>
   )
