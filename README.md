@@ -5,9 +5,9 @@
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4.3-06B6D4?logo=tailwindcss&logoColor=white)
 ![Static Site](https://img.shields.io/badge/Deploy-Static-555555)
 
-## The Hook
+## About
 
-Marketing site for U Foodie, an Anaheim Szechuan hot pot and malatang restaurant. Converts walk-by and search traffic into dine-in visits and DoorDash pickup orders by surfacing menu, pricing, location, and social proof in a single scroll experience.
+UFoodieHotPot is the public marketing site for U Foodie, an Anaheim Szechuan hot pot and malatang restaurant. The site presents menu options, per-pound pricing, hours, location, and ordering links in a single-page React application with no backend.
 
 ## System Architecture
 
